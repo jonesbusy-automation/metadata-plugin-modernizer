@@ -1,15 +1,16 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-07-26 02:21:47 UTC
+Generated on: 2025-08-02 02:10:02 UTC
 
 ## Overview
-- **Total Migrations**: 508
-- **Failed Migrations**: 364
-- **Success Rate**: 28.35%
+- **Total Migrations**: 550
+- **Failed Migrations**: 366
+- **Success Rate**: 33.45%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 336 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 25 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
@@ -93,7 +94,9 @@ Generated on: 2025-07-26 02:21:47 UTC
 - [extreme-notification](../extreme-notification/reports/failed_migrations.csv)
 - [ezwall](../ezwall/reports/failed_migrations.csv)
 - [failedJobDeactivator](../failedJobDeactivator/reports/failed_migrations.csv)
+- [file-operations](../file-operations/reports/failed_migrations.csv)
 - [files-found-trigger](../files-found-trigger/reports/failed_migrations.csv)
+- [flyway-api](../flyway-api/reports/failed_migrations.csv)
 - [fogbugz](../fogbugz/reports/failed_migrations.csv)
 - [fxcop-runner](../fxcop-runner/reports/failed_migrations.csv)
 - [gallio](../gallio/reports/failed_migrations.csv)
@@ -224,10 +227,10 @@ Generated on: 2025-07-26 02:21:47 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 91 | - |
-| Open PRs | 78 | 85.71% |
-| Closed PRs | 3 | 3.30% |
-| Merged PRs | 10 | 10.99% |
+| Total PRs | 131 | - |
+| Open PRs | 117 | 89.31% |
+| Closed PRs | 4 | 3.05% |
+| Merged PRs | 10 | 7.63% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
