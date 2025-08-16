@@ -1,9 +1,49 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
-  "totalApplications": 1,
-  "successCount": 0,
-  "failureCount": 1,
+  "totalApplications": 9,
+  "successCount": 7,
+  "failureCount": 2,
   "plugins": [
+    {
+      "pluginName": "jsoup",
+      "status": "success",
+      "timestamp": "2025-08-09T08-55-51"
+    },
+    {
+      "pluginName": "json-api",
+      "status": "success",
+      "timestamp": "2025-08-09T08-54-03"
+    },
+    {
+      "pluginName": "joda-time-api",
+      "status": "success",
+      "timestamp": "2025-08-09T08-52-02"
+    },
+    {
+      "pluginName": "flyway-api",
+      "status": "fail",
+      "timestamp": "2025-08-09T08-48-12"
+    },
+    {
+      "pluginName": "commons-math3-api",
+      "status": "success",
+      "timestamp": "2025-08-09T08-44-34"
+    },
+    {
+      "pluginName": "byte-buddy-api",
+      "status": "success",
+      "timestamp": "2025-08-09T08-42-48"
+    },
+    {
+      "pluginName": "asm-api",
+      "status": "success",
+      "timestamp": "2025-08-09T08-41-07"
+    },
+    {
+      "pluginName": "artifactory-client-api",
+      "status": "success",
+      "timestamp": "2025-08-09T08-39-24"
+    },
     {
       "pluginName": "tuleap-oauth",
       "status": "fail",
