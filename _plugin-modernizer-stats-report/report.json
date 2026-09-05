@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-06-28T01:48:32Z",
+  "generatedAt": "2026-09-05T05:18:31Z",
   "dataSource": "https://github.com/jenkins-infra/metadata-plugin-modernizer",
   "meta": {
-    "source_sha256": "f7c59c5ef700c9e2d929a99d19080249295288905b0ac9f8678ec06f1e02fce5",
-    "parsed_at": "2026-06-28T01:48:32Z"
+    "source_sha256": "6657dba5f5d148acbc9ee5d0ec941d5193c838b48a04faa667f1e116d26212d7",
+    "parsed_at": "2026-09-05T05:18:31Z"
   },
   "overview": {
     "totalPlugins": 431,
@@ -8840,7 +8840,7 @@
           },
           "checkRunsSummary": "failure",
           "defaultBranch": "master",
-          "defaultBranchLatestCommitSha": "b52fa10df1e84388391f7abc4b9a56cc65fb9a43"
+          "defaultBranchLatestCommitSha": "65e7c31c985ee035858bd22e31e7a7173c8d848c"
         }
       ]
     },
@@ -13336,6 +13336,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T15-32-24.json",
+          "path": "metadata-plugin-modernizer/artifactory-artifact-manager/modernization-metadata"
+        },
+        {
+          "pluginName": "artifactory-artifact-manager",
+          "pluginRepository": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin.git",
+          "pluginVersion": "320.v6d1b_a_84b_16db_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin/pull/175",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-24-32.json",
+          "path": "metadata-plugin-modernizer/artifactory-artifact-manager/modernization-metadata"
+        },
+        {
+          "pluginName": "artifactory-artifact-manager",
+          "pluginRepository": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin.git",
+          "pluginVersion": "320.v6d1b_a_84b_16db_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-52-14.json",
           "path": "metadata-plugin-modernizer/artifactory-artifact-manager/modernization-metadata"
         }
       ]
@@ -18019,6 +18068,55 @@
           "changedFiles": 0,
           "key": "2026-06-06T15-36-56.json",
           "path": "metadata-plugin-modernizer/bitbucket-kubernetes-credentials/modernization-metadata"
+        },
+        {
+          "pluginName": "bitbucket-kubernetes-credentials",
+          "pluginRepository": "https://github.com/jenkinsci/bitbucket-kubernetes-credentials-plugin.git",
+          "pluginVersion": "662.v96d8b_a_90e07e",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "fail",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T14-25-40.json",
+          "path": "metadata-plugin-modernizer/bitbucket-kubernetes-credentials/modernization-metadata"
+        },
+        {
+          "pluginName": "bitbucket-kubernetes-credentials",
+          "pluginRepository": "https://github.com/jenkinsci/bitbucket-kubernetes-credentials-plugin.git",
+          "pluginVersion": "662.v96d8b_a_90e07e",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-53-29.json",
+          "path": "metadata-plugin-modernizer/bitbucket-kubernetes-credentials/modernization-metadata"
         }
       ]
     },
@@ -21172,6 +21270,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T15-38-49.json",
+          "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata"
+        },
+        {
+          "pluginName": "build-history-metrics-plugin",
+          "pluginRepository": "https://github.com/jenkinsci/build-history-metrics-plugin.git",
+          "pluginVersion": "217.vf34ff6a_b_41ca_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/build-history-metrics-plugin/pull/110",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-27-42.json",
+          "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata"
+        },
+        {
+          "pluginName": "build-history-metrics-plugin",
+          "pluginRepository": "https://github.com/jenkinsci/build-history-metrics-plugin.git",
+          "pluginVersion": "217.vf34ff6a_b_41ca_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-54-40.json",
           "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata"
         }
       ]
@@ -29728,6 +29875,55 @@
           "changedFiles": 0,
           "key": "2026-06-06T15-43-44.json",
           "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata"
+        },
+        {
+          "pluginName": "coverage-badges-extension",
+          "pluginRepository": "https://github.com/jenkinsci/coverage-badges-extension-plugin.git",
+          "pluginVersion": "234.v43c3ef3878b_c",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/138",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-29-56.json",
+          "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata"
+        },
+        {
+          "pluginName": "coverage-badges-extension",
+          "pluginRepository": "https://github.com/jenkinsci/coverage-badges-extension-plugin.git",
+          "pluginVersion": "234.v43c3ef3878b_c",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-55-55.json",
+          "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata"
         }
       ]
     },
@@ -32386,6 +32582,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T15-45-34.json",
+          "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata"
+        },
+        {
+          "pluginName": "database-mariadb",
+          "pluginRepository": "https://github.com/jenkinsci/database-mariadb-plugin.git",
+          "pluginVersion": "182.v8f1d21b_7c825",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/124",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-32-02.json",
+          "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata"
+        },
+        {
+          "pluginName": "database-mariadb",
+          "pluginRepository": "https://github.com/jenkinsci/database-mariadb-plugin.git",
+          "pluginVersion": "182.v8f1d21b_7c825",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-57-01.json",
           "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata"
         }
       ]
@@ -37972,6 +38217,55 @@
           "changedFiles": 0,
           "key": "2026-06-06T15-47-14.json",
           "path": "metadata-plugin-modernizer/exclusive-label-plugin/modernization-metadata"
+        },
+        {
+          "pluginName": "exclusive-label-plugin",
+          "pluginRepository": "https://github.com/jenkinsci/exclusive-labels-plugin.git",
+          "pluginVersion": "19.v40532946d413",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/exclusive-labels-plugin/pull/28",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-33-55.json",
+          "path": "metadata-plugin-modernizer/exclusive-label-plugin/modernization-metadata"
+        },
+        {
+          "pluginName": "exclusive-label-plugin",
+          "pluginRepository": "https://github.com/jenkinsci/exclusive-labels-plugin.git",
+          "pluginVersion": "19.v40532946d413",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-58-09.json",
+          "path": "metadata-plugin-modernizer/exclusive-label-plugin/modernization-metadata"
         }
       ]
     },
@@ -38923,6 +39217,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T15-52-17.json",
+          "path": "metadata-plugin-modernizer/extended-read-permission/modernization-metadata"
+        },
+        {
+          "pluginName": "extended-read-permission",
+          "pluginRepository": "https://github.com/jenkinsci/extended-read-permission-plugin.git",
+          "pluginVersion": "68.vd270568a_7520",
+          "jenkinsBaseline": "",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/extended-read-permission-plugin/pull/61",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-39-42.json",
+          "path": "metadata-plugin-modernizer/extended-read-permission/modernization-metadata"
+        },
+        {
+          "pluginName": "extended-read-permission",
+          "pluginRepository": "https://github.com/jenkinsci/extended-read-permission-plugin.git",
+          "pluginVersion": "68.vd270568a_7520",
+          "jenkinsBaseline": "",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-01-35.json",
           "path": "metadata-plugin-modernizer/extended-read-permission/modernization-metadata"
         }
       ]
@@ -40015,6 +40358,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T15-49-05.json",
+          "path": "metadata-plugin-modernizer/extension-filter/modernization-metadata"
+        },
+        {
+          "pluginName": "extension-filter",
+          "pluginRepository": "https://github.com/jenkinsci/extension-filter-plugin.git",
+          "pluginVersion": "268.v953673b_16e81",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/extension-filter-plugin/pull/172",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-36-01.json",
+          "path": "metadata-plugin-modernizer/extension-filter/modernization-metadata"
+        },
+        {
+          "pluginName": "extension-filter",
+          "pluginRepository": "https://github.com/jenkinsci/extension-filter-plugin.git",
+          "pluginVersion": "268.v953673b_16e81",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-59-17.json",
           "path": "metadata-plugin-modernizer/extension-filter/modernization-metadata"
         }
       ]
@@ -41294,6 +41686,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T15-50-49.json",
+          "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata"
+        },
+        {
+          "pluginName": "extra-tool-installers",
+          "pluginRepository": "https://github.com/jenkinsci/extra-tool-installers-plugin.git",
+          "pluginVersion": "234.v67a_eca_496b_8b_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/202",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-38-05.json",
+          "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata"
+        },
+        {
+          "pluginName": "extra-tool-installers",
+          "pluginRepository": "https://github.com/jenkinsci/extra-tool-installers-plugin.git",
+          "pluginVersion": "234.v67a_eca_496b_8b_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-00-30.json",
           "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata"
         }
       ]
@@ -43247,6 +43688,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T15-55-20.json",
+          "path": "metadata-plugin-modernizer/file-operations/modernization-metadata"
+        },
+        {
+          "pluginName": "file-operations",
+          "pluginRepository": "https://github.com/jenkinsci/file-operations-plugin.git",
+          "pluginVersion": "439.vdc9d3b_d74b_d9",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/file-operations-plugin/pull/216",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-42-57.json",
+          "path": "metadata-plugin-modernizer/file-operations/modernization-metadata"
+        },
+        {
+          "pluginName": "file-operations",
+          "pluginRepository": "https://github.com/jenkinsci/file-operations-plugin.git",
+          "pluginVersion": "439.vdc9d3b_d74b_d9",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-02-46.json",
           "path": "metadata-plugin-modernizer/file-operations/modernization-metadata"
         }
       ]
@@ -45599,6 +46089,55 @@
           "changedFiles": 0,
           "key": "2026-06-06T16-01-56.json",
           "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata"
+        },
+        {
+          "pluginName": "flyway-runner",
+          "pluginRepository": "https://github.com/jenkinsci/flyway-runner-plugin.git",
+          "pluginVersion": "282.v7e837c0b_ff13",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/168",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-45-49.json",
+          "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata"
+        },
+        {
+          "pluginName": "flyway-runner",
+          "pluginRepository": "https://github.com/jenkinsci/flyway-runner-plugin.git",
+          "pluginVersion": "282.v7e837c0b_ff13",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-03-57.json",
+          "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata"
         }
       ]
     },
@@ -46372,7 +46911,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "master",
-          "defaultBranchLatestCommitSha": "a0089b046e343046d3c9a913e6b598f292c062a8"
+          "defaultBranchLatestCommitSha": "fe08209fbf4989e327b340f13df20a64b164dd78"
         }
       ]
     },
@@ -46474,7 +47013,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "master",
-          "defaultBranchLatestCommitSha": "01a2a4ed9f66a07195aa77410a14121000be0a48"
+          "defaultBranchLatestCommitSha": "f0dd6ef16ffa6797721a12b522eb666acb69ff99"
         }
       ]
     },
@@ -47486,6 +48025,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T16-06-53.json",
+          "path": "metadata-plugin-modernizer/git-version-monitor/modernization-metadata"
+        },
+        {
+          "pluginName": "git-version-monitor",
+          "pluginRepository": "https://github.com/jenkinsci/git-version-monitor-plugin.git",
+          "pluginVersion": "41.v0cfdf922b_b_0c",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/git-version-monitor-plugin/pull/47",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-49-53.json",
+          "path": "metadata-plugin-modernizer/git-version-monitor/modernization-metadata"
+        },
+        {
+          "pluginName": "git-version-monitor",
+          "pluginRepository": "https://github.com/jenkinsci/git-version-monitor-plugin.git",
+          "pluginVersion": "41.v0cfdf922b_b_0c",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-06-17.json",
           "path": "metadata-plugin-modernizer/git-version-monitor/modernization-metadata"
         }
       ]
@@ -49538,6 +50126,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T16-03-52.json",
+          "path": "metadata-plugin-modernizer/gitlab-kubernetes-credentials/modernization-metadata"
+        },
+        {
+          "pluginName": "gitlab-kubernetes-credentials",
+          "pluginRepository": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin.git",
+          "pluginVersion": "538.v99cc6503c421",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin/pull/313",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-48-06.json",
+          "path": "metadata-plugin-modernizer/gitlab-kubernetes-credentials/modernization-metadata"
+        },
+        {
+          "pluginName": "gitlab-kubernetes-credentials",
+          "pluginRepository": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin.git",
+          "pluginVersion": "538.v99cc6503c421",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-05-10.json",
           "path": "metadata-plugin-modernizer/gitlab-kubernetes-credentials/modernization-metadata"
         }
       ]
@@ -52556,6 +53193,55 @@
           "deletions": 0,
           "changedFiles": 0,
           "key": "2026-06-06T16-09-04.json",
+          "path": "metadata-plugin-modernizer/hidden-parameter/modernization-metadata"
+        },
+        {
+          "pluginName": "hidden-parameter",
+          "pluginRepository": "https://github.com/jenkinsci/hidden-parameter-plugin.git",
+          "pluginVersion": "546.vdeec4ce8b_26f",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/hidden-parameter-plugin/pull/269",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-52-03.json",
+          "path": "metadata-plugin-modernizer/hidden-parameter/modernization-metadata"
+        },
+        {
+          "pluginName": "hidden-parameter",
+          "pluginRepository": "https://github.com/jenkinsci/hidden-parameter-plugin.git",
+          "pluginVersion": "546.vdeec4ce8b_26f",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-07-26.json",
           "path": "metadata-plugin-modernizer/hidden-parameter/modernization-metadata"
         }
       ]
@@ -57738,6 +58424,55 @@
           "changedFiles": 0,
           "key": "2026-06-06T16-12-10.json",
           "path": "metadata-plugin-modernizer/jcaptcha-plugin/modernization-metadata"
+        },
+        {
+          "pluginName": "jcaptcha-plugin",
+          "pluginRepository": "https://github.com/jenkinsci/jcaptcha-plugin.git",
+          "pluginVersion": "108.v49e0795497c2",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/jcaptcha-plugin/pull/65",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-53-37.json",
+          "path": "metadata-plugin-modernizer/jcaptcha-plugin/modernization-metadata"
+        },
+        {
+          "pluginName": "jcaptcha-plugin",
+          "pluginRepository": "https://github.com/jenkinsci/jcaptcha-plugin.git",
+          "pluginVersion": "108.v49e0795497c2",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-08-28.json",
+          "path": "metadata-plugin-modernizer/jcaptcha-plugin/modernization-metadata"
         }
       ]
     },
@@ -60617,6 +61352,55 @@
           "changedFiles": 0,
           "key": "2026-06-06T16-15-17.json",
           "path": "metadata-plugin-modernizer/jobcacher/modernization-metadata"
+        },
+        {
+          "pluginName": "jobcacher",
+          "pluginRepository": "https://github.com/jenkinsci/jobcacher-plugin.git",
+          "pluginVersion": "842.v74b_a_026267b_6",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "fail",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T14-57-00.json",
+          "path": "metadata-plugin-modernizer/jobcacher/modernization-metadata"
+        },
+        {
+          "pluginName": "jobcacher",
+          "pluginRepository": "https://github.com/jenkinsci/jobcacher-plugin.git",
+          "pluginVersion": "842.v74b_a_026267b_6",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-09-41.json",
+          "path": "metadata-plugin-modernizer/jobcacher/modernization-metadata"
         }
       ]
     },
@@ -61684,6 +62468,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2"
+        },
+        {
+          "pluginName": "jobcacher-artifactory-storage",
+          "pluginRepository": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin.git",
+          "pluginVersion": "250.v0d119ef70b_87",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin/pull/135",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T14-59-04.json",
+          "path": "metadata-plugin-modernizer/jobcacher-artifactory-storage/modernization-metadata"
+        },
+        {
+          "pluginName": "jobcacher-artifactory-storage",
+          "pluginRepository": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin.git",
+          "pluginVersion": "250.v0d119ef70b_87",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-10-52.json",
+          "path": "metadata-plugin-modernizer/jobcacher-artifactory-storage/modernization-metadata"
         }
       ]
     },
@@ -62268,7 +63101,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62315,7 +63148,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62361,7 +63194,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62408,7 +63241,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62453,7 +63286,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62499,7 +63332,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62544,7 +63377,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62590,7 +63423,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62624,7 +63457,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62670,7 +63503,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62717,7 +63550,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
         },
         {
           "pluginName": "jobcacher-oras-storage",
@@ -62764,7 +63597,56 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd"
+          "defaultBranchLatestCommitSha": "ecbe43ab934508c3e4138c21565451c7a704acb4"
+        },
+        {
+          "pluginName": "jobcacher-oras-storage",
+          "pluginRepository": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin.git",
+          "pluginVersion": "144.vb_727c9b_7d229",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/95",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-02-17.json",
+          "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata"
+        },
+        {
+          "pluginName": "jobcacher-oras-storage",
+          "pluginRepository": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin.git",
+          "pluginVersion": "144.vb_727c9b_7d229",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.528",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-12-04.json",
+          "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata"
         }
       ]
     },
@@ -67003,6 +67885,30 @@
           "changedFiles": 0,
           "key": "2026-05-23T15-41-55.json",
           "path": "metadata-plugin-modernizer/jwt-auth-filter/modernization-metadata"
+        },
+        {
+          "pluginName": "jwt-auth-filter",
+          "pluginRepository": "https://github.com/jenkinsci/jwt-auth-filter-plugin.git",
+          "pluginVersion": "52.v493a_c62a_0373",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/jwt-auth-filter-plugin/pull/31",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T07-01-51.json",
+          "path": "metadata-plugin-modernizer/jwt-auth-filter/modernization-metadata"
         }
       ]
     },
@@ -70216,6 +71122,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "68296ed5d32534584dfce35413fb88589c796e7c"
+        },
+        {
+          "pluginName": "locale",
+          "pluginRepository": "https://github.com/jenkinsci/locale-plugin.git",
+          "pluginVersion": "641.v84f22d75fd8b_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/locale-plugin/pull/377",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-06-59.json",
+          "path": "metadata-plugin-modernizer/locale/modernization-metadata"
+        },
+        {
+          "pluginName": "locale",
+          "pluginRepository": "https://github.com/jenkinsci/locale-plugin.git",
+          "pluginVersion": "641.v84f22d75fd8b_",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-14-26.json",
+          "path": "metadata-plugin-modernizer/locale/modernization-metadata"
         }
       ]
     },
@@ -71437,6 +72392,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "85d211d083eb0ecfe2ae20ae1c23c9bd25ab6775"
+        },
+        {
+          "pluginName": "login-theme",
+          "pluginRepository": "https://github.com/jenkinsci/login-theme-plugin.git",
+          "pluginVersion": "325.v94b_7548124cb_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/login-theme-plugin/pull/182",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-08-49.json",
+          "path": "metadata-plugin-modernizer/login-theme/modernization-metadata"
+        },
+        {
+          "pluginName": "login-theme",
+          "pluginRepository": "https://github.com/jenkinsci/login-theme-plugin.git",
+          "pluginVersion": "325.v94b_7548124cb_",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-15-35.json",
+          "path": "metadata-plugin-modernizer/login-theme/modernization-metadata"
         }
       ]
     },
@@ -75501,6 +76505,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "fa58619f8a69e3c60218b022e161b769af8a2015"
+        },
+        {
+          "pluginName": "next-executions",
+          "pluginRepository": "https://github.com/jenkinsci/next-executions-plugin.git",
+          "pluginVersion": "517.vc2c2ca_1b_c808",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/next-executions-plugin/pull/231",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-11-17.json",
+          "path": "metadata-plugin-modernizer/next-executions/modernization-metadata"
+        },
+        {
+          "pluginName": "next-executions",
+          "pluginRepository": "https://github.com/jenkinsci/next-executions-plugin.git",
+          "pluginVersion": "517.vc2c2ca_1b_c808",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-16-44.json",
+          "path": "metadata-plugin-modernizer/next-executions/modernization-metadata"
         }
       ]
     },
@@ -76908,6 +77961,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607"
+        },
+        {
+          "pluginName": "nunit",
+          "pluginRepository": "https://github.com/jenkinsci/nunit-plugin.git",
+          "pluginVersion": "648.vdc8c6431f464",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/nunit-plugin/pull/193",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-13-49.json",
+          "path": "metadata-plugin-modernizer/nunit/modernization-metadata"
+        },
+        {
+          "pluginName": "nunit",
+          "pluginRepository": "https://github.com/jenkinsci/nunit-plugin.git",
+          "pluginVersion": "648.vdc8c6431f464",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-17-55.json",
+          "path": "metadata-plugin-modernizer/nunit/modernization-metadata"
         }
       ]
     },
@@ -78481,6 +79583,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "a03b363b9a82b6f20d24e986196b0fdcf02a895c"
+        },
+        {
+          "pluginName": "openshift-k8s-credentials",
+          "pluginRepository": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin.git",
+          "pluginVersion": "324.v23475795707d",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/335",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-15-51.json",
+          "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata"
+        },
+        {
+          "pluginName": "openshift-k8s-credentials",
+          "pluginRepository": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin.git",
+          "pluginVersion": "324.v23475795707d",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/336",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T16-19-16.json",
+          "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata"
         }
       ]
     },
@@ -79433,7 +80584,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "64290c707f3abc9178945ffcdaae8c921e7eaf5b",
+          "defaultBranchLatestCommitSha": "a7c3610c1eef5cea9f3b6d19d6cffaa48c267081",
           "timestamp": "2026-06-06T16-22-29"
         },
         {
@@ -79479,7 +80630,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "64290c707f3abc9178945ffcdaae8c921e7eaf5b",
+          "defaultBranchLatestCommitSha": "a7c3610c1eef5cea9f3b6d19d6cffaa48c267081",
           "timestamp": "2026-04-18T10-07-00"
         },
         {
@@ -79523,7 +80674,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "64290c707f3abc9178945ffcdaae8c921e7eaf5b",
+          "defaultBranchLatestCommitSha": "a7c3610c1eef5cea9f3b6d19d6cffaa48c267081",
           "timestamp": "2026-04-06T13-19-01"
         },
         {
@@ -79568,7 +80719,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "64290c707f3abc9178945ffcdaae8c921e7eaf5b",
+          "defaultBranchLatestCommitSha": "a7c3610c1eef5cea9f3b6d19d6cffaa48c267081",
           "timestamp": "2026-03-15T16-13-28"
         }
       ],
@@ -79758,6 +80909,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "a7c3610c1eef5cea9f3b6d19d6cffaa48c267081"
+        },
+        {
+          "pluginName": "oras-parameters",
+          "pluginRepository": "https://github.com/jenkinsci/oras-parameters-plugin.git",
+          "pluginVersion": "27.ve7df57fb_154d",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/oras-parameters-plugin/pull/24",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-04-49.json",
+          "path": "metadata-plugin-modernizer/oras-parameters/modernization-metadata"
+        },
+        {
+          "pluginName": "oras-parameters",
+          "pluginRepository": "https://github.com/jenkinsci/oras-parameters-plugin.git",
+          "pluginVersion": "27.ve7df57fb_154d",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-13-16.json",
+          "path": "metadata-plugin-modernizer/oras-parameters/modernization-metadata"
         }
       ]
     },
@@ -80146,7 +81346,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         },
         {
           "pluginName": "oss-symbols-api",
@@ -80192,7 +81392,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         },
         {
           "pluginName": "oss-symbols-api",
@@ -80239,7 +81439,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         },
         {
           "pluginName": "oss-symbols-api",
@@ -80284,7 +81484,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         },
         {
           "pluginName": "oss-symbols-api",
@@ -80328,7 +81528,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         },
         {
           "pluginName": "oss-symbols-api",
@@ -80361,7 +81561,7 @@
           },
           "checkRunsSummary": "failure",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         },
         {
           "pluginName": "oss-symbols-api",
@@ -80396,7 +81596,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         },
         {
           "pluginName": "oss-symbols-api",
@@ -80442,7 +81642,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "ff8a5631a09dbca93c6b779dc9cc2f88ed70d4ff"
+          "defaultBranchLatestCommitSha": "25d9fdc88c26880a5a7bca09690b89d61269adee"
         }
       ]
     },
@@ -81830,6 +83030,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "0ed720b3a5e3ee6bd1b74b507d4d4bb1f02f341b"
+        },
+        {
+          "pluginName": "parameter-separator",
+          "pluginRepository": "https://github.com/jenkinsci/parameter-separator-plugin.git",
+          "pluginVersion": "334.v1fc0e534c71d",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/parameter-separator-plugin/pull/170",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-18-15.json",
+          "path": "metadata-plugin-modernizer/parameter-separator/modernization-metadata"
+        },
+        {
+          "pluginName": "parameter-separator",
+          "pluginRepository": "https://github.com/jenkinsci/parameter-separator-plugin.git",
+          "pluginVersion": "334.v1fc0e534c71d",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-20-28.json",
+          "path": "metadata-plugin-modernizer/parameter-separator/modernization-metadata"
         }
       ]
     },
@@ -84081,6 +85330,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "779ccd7ef21004e229037d4a3746574c9bf2cfba"
+        },
+        {
+          "pluginName": "pipeline-cps-http",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-http-plugin.git",
+          "pluginVersion": "201.v59370c7cf0ec",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-http-plugin/pull/92",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-20-45.json",
+          "path": "metadata-plugin-modernizer/pipeline-cps-http/modernization-metadata"
+        },
+        {
+          "pluginName": "pipeline-cps-http",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-http-plugin.git",
+          "pluginVersion": "201.v59370c7cf0ec",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-21-40.json",
+          "path": "metadata-plugin-modernizer/pipeline-cps-http/modernization-metadata"
         }
       ]
     },
@@ -85231,6 +86529,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "58dfa40478ab79c0b52779d514a39a92e88b63b4"
+        },
+        {
+          "pluginName": "pipeline-cps-oras",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-oras-plugin.git",
+          "pluginVersion": "88.v0d7eff910a_13",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-oras-plugin/pull/66",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-26-59.json",
+          "path": "metadata-plugin-modernizer/pipeline-cps-oras/modernization-metadata"
+        },
+        {
+          "pluginName": "pipeline-cps-oras",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-oras-plugin.git",
+          "pluginVersion": "88.v0d7eff910a_13",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-24-26.json",
+          "path": "metadata-plugin-modernizer/pipeline-cps-oras/modernization-metadata"
         }
       ]
     },
@@ -86296,7 +87643,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86343,7 +87690,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86389,7 +87736,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86435,7 +87782,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86482,7 +87829,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86526,7 +87873,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86571,7 +87918,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86615,7 +87962,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86660,7 +88007,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86694,7 +88041,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86739,7 +88086,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86785,7 +88132,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
         },
         {
           "pluginName": "pipeline-lib-oras",
@@ -86831,7 +88178,56 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "main",
-          "defaultBranchLatestCommitSha": "70a9db3087bb0f4761b532b08bf5fbf4c5f3cc60"
+          "defaultBranchLatestCommitSha": "2a9c447b536ca955b84e6d6ef42810af731e9e09"
+        },
+        {
+          "pluginName": "pipeline-lib-oras",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-lib-oras-plugin.git",
+          "pluginVersion": "90.vecb_55543088a_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/pipeline-lib-oras-plugin/pull/64",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-24-49.json",
+          "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata"
+        },
+        {
+          "pluginName": "pipeline-lib-oras",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-lib-oras-plugin.git",
+          "pluginVersion": "90.vecb_55543088a_",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-23-30.json",
+          "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata"
         }
       ]
     },
@@ -87964,6 +89360,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "a2d540315627846f279621077ac6aa11cdcca780"
+        },
+        {
+          "pluginName": "pipeline-npm",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-npm-plugin.git",
+          "pluginVersion": "503.vf29ef1b_913ce",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/pipeline-npm-plugin/pull/269",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-22-35.json",
+          "path": "metadata-plugin-modernizer/pipeline-npm/modernization-metadata"
+        },
+        {
+          "pluginName": "pipeline-npm",
+          "pluginRepository": "https://github.com/jenkinsci/pipeline-npm-plugin.git",
+          "pluginVersion": "503.vf29ef1b_913ce",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-22-34.json",
+          "path": "metadata-plugin-modernizer/pipeline-npm/modernization-metadata"
         }
       ]
     },
@@ -88165,7 +89610,7 @@
           },
           "checkRunsSummary": "success",
           "defaultBranch": "master",
-          "defaultBranchLatestCommitSha": "a7672d2067401a3e191836df55b4282036edb01d"
+          "defaultBranchLatestCommitSha": "1008b564a3494d87d3a1377c1392f2f83c04d87e"
         }
       ]
     },
@@ -89572,6 +91017,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "bcec9d3b6e57a33af00e04e9befc72cf820f8f64"
+        },
+        {
+          "pluginName": "postgresql-fingerprint-storage",
+          "pluginRepository": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin.git",
+          "pluginVersion": "426.vf9f89a_59cc26",
+          "jenkinsBaseline": "2.504",
+          "targetBaseline": "2.504",
+          "effectiveBaseline": "2.504",
+          "jenkinsVersion": "2.504.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "fail",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T15-28-21.json",
+          "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata"
+        },
+        {
+          "pluginName": "postgresql-fingerprint-storage",
+          "pluginRepository": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin.git",
+          "pluginVersion": "426.vf9f89a_59cc26",
+          "jenkinsBaseline": "2.504",
+          "targetBaseline": "2.504",
+          "effectiveBaseline": "2.504",
+          "jenkinsVersion": "2.504.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-25-29.json",
+          "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata"
         }
       ]
     },
@@ -93001,6 +94495,55 @@
           "changedFiles": 0,
           "key": "2026-06-06T17-01-25.json",
           "path": "metadata-plugin-modernizer/s3-jobcacher-storage/modernization-metadata"
+        },
+        {
+          "pluginName": "s3-jobcacher-storage",
+          "pluginRepository": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin.git",
+          "pluginVersion": "62.v260cb_8db_5b_fa_",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin/pull/75",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-31-46.json",
+          "path": "metadata-plugin-modernizer/s3-jobcacher-storage/modernization-metadata"
+        },
+        {
+          "pluginName": "s3-jobcacher-storage",
+          "pluginRepository": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin.git",
+          "pluginVersion": "62.v260cb_8db_5b_fa_",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-26-30.json",
+          "path": "metadata-plugin-modernizer/s3-jobcacher-storage/modernization-metadata"
         }
       ]
     },
@@ -94138,6 +95681,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "49f9525ed2c6ab8f1e84f80deced9faf4a6b8014"
+        },
+        {
+          "pluginName": "scm-filter-branch-pr",
+          "pluginRepository": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin.git",
+          "pluginVersion": "264.v39ce4f34d572",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/142",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-33-24.json",
+          "path": "metadata-plugin-modernizer/scm-filter-branch-pr/modernization-metadata"
+        },
+        {
+          "pluginName": "scm-filter-branch-pr",
+          "pluginRepository": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin.git",
+          "pluginVersion": "264.v39ce4f34d572",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-27-23.json",
+          "path": "metadata-plugin-modernizer/scm-filter-branch-pr/modernization-metadata"
         }
       ]
     },
@@ -95878,6 +97470,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492"
+        },
+        {
+          "pluginName": "simple-priority-sorter",
+          "pluginRepository": "https://github.com/jenkinsci/simple-priority-sorter-plugin.git",
+          "pluginVersion": "47.v920b_a_09b_0e77",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/39",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-37-29.json",
+          "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata"
+        },
+        {
+          "pluginName": "simple-priority-sorter",
+          "pluginRepository": "https://github.com/jenkinsci/simple-priority-sorter-plugin.git",
+          "pluginVersion": "47.v920b_a_09b_0e77",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-29-14.json",
+          "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata"
         }
       ]
     },
@@ -97183,6 +98824,55 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "34afd6fb6892eea33ba29c82a03849845d6e4743"
+        },
+        {
+          "pluginName": "skip-notifications-trait",
+          "pluginRepository": "https://github.com/jenkinsci/skip-notifications-trait-plugin.git",
+          "pluginVersion": "625.vb_f5e11e9b_158",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/skip-notifications-trait-plugin/pull/324",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 3,
+          "deletions": 3,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-35-34.json",
+          "path": "metadata-plugin-modernizer/skip-notifications-trait/modernization-metadata"
+        },
+        {
+          "pluginName": "skip-notifications-trait",
+          "pluginRepository": "https://github.com/jenkinsci/skip-notifications-trait-plugin.git",
+          "pluginVersion": "625.vb_f5e11e9b_158",
+          "jenkinsBaseline": "2.541",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.541",
+          "jenkinsVersion": "2.541.3",
+          "migrationName": "Remove Release Drafter if CD is enabled",
+          "migrationDescription": "Remove Release Drafter if CD is enabled. See https://www.jenkins.io/doc/developer/publishing/releasing-cd/#configure-release-drafter.",
+          "tags": [
+            "skip-verification",
+            "chore"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveReleaseDrafter",
+          "migrationStatus": "success",
+          "pullRequestUrl": "",
+          "pullRequestStatus": "",
+          "dryRun": false,
+          "additions": 0,
+          "deletions": 0,
+          "changedFiles": 0,
+          "key": "2026-06-28T16-28-21.json",
+          "path": "metadata-plugin-modernizer/skip-notifications-trait/modernization-metadata"
         }
       ]
     },
@@ -102389,6 +104079,30 @@
           "checkRunsSummary": "success",
           "defaultBranch": "main",
           "defaultBranchLatestCommitSha": "8754c42b6ef80f65df67148aa74c48bf5336d17f"
+        },
+        {
+          "pluginName": "webhook-secret-credentials-provider",
+          "pluginRepository": "https://github.com/jenkinsci/webhook-secret-credentials-provider-plugin.git",
+          "pluginVersion": "16.v0cfa_f0215cf5",
+          "jenkinsBaseline": "2.528",
+          "targetBaseline": "2.541",
+          "effectiveBaseline": "2.528",
+          "jenkinsVersion": "2.528.3",
+          "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+          "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+          "tags": [
+            "developer"
+          ],
+          "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+          "migrationStatus": "success",
+          "pullRequestUrl": "https://github.com/jenkinsci/webhook-secret-credentials-provider-plugin/pull/25",
+          "pullRequestStatus": "open",
+          "dryRun": false,
+          "additions": 2,
+          "deletions": 2,
+          "changedFiles": 1,
+          "key": "2026-06-28T15-39-43.json",
+          "path": "metadata-plugin-modernizer/webhook-secret-credentials-provider/modernization-metadata"
         }
       ]
     },
