@@ -1,8 +1,8 @@
 {
-  "generatedOn": "2026-06-28 01:18:09 UTC",
-  "totalMigrations": 1388,
-  "failedMigrations": 592,
-  "successRate": 57.35,
+  "generatedOn": "2026-09-26 04:41:14 UTC",
+  "totalMigrations": 1458,
+  "failedMigrations": 595,
+  "successRate": 59.19,
   "failuresByRecipe": [
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
@@ -14,7 +14,7 @@
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-      "failures": 17
+      "failures": 20
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
@@ -25,20 +25,16 @@
       "failures": 4
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
       "failures": 3
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "failures": 3
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion",
       "failures": 2
-    },
-    {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
-      "failures": 1
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
@@ -50,6 +46,10 @@
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "failures": 1
+    },
+    {
+      "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "failures": 1
     }
   ],
@@ -89,6 +89,7 @@
     "backlog",
     "backup",
     "bitbucket-approve",
+    "bitbucket-kubernetes-credentials",
     "bitkeeper",
     "blackduck-coverity-on-polaris",
     "blink1",
@@ -287,13 +288,13 @@
     "zentimestamp"
   ],
   "pullRequestStats": {
-    "total": 659,
-    "open": 78,
+    "total": 693,
+    "open": 112,
     "closed": 32,
     "merged": 549,
-    "openRate": 11.84,
-    "closedRate": 4.86,
-    "mergeRate": 83.31
+    "openRate": 16.16,
+    "closedRate": 4.62,
+    "mergeRate": 79.22
   },
   "timeline": [
     {
@@ -364,19 +365,19 @@
     },
     {
       "month": "2026-06",
-      "success": 51,
-      "fail": 2,
-      "total": 53
+      "success": 118,
+      "fail": 5,
+      "total": 123
     }
   ],
   "tags": [
     {
       "tag": "skip-verification",
-      "count": 759
+      "count": 793
     },
     {
       "tag": "chore",
-      "count": 759
+      "count": 793
     },
     {
       "tag": "dependencies",
@@ -388,7 +389,7 @@
     },
     {
       "tag": "developer",
-      "count": 156
+      "count": 192
     },
     {
       "tag": "testing",
