@@ -1,8 +1,8 @@
 {
-  "generatedOn": "2026-09-13 03:44:51 UTC",
-  "totalMigrations": 1459,
-  "failedMigrations": 595,
-  "successRate": 59.22,
+  "generatedOn": "2026-10-10 05:32:00 UTC",
+  "totalMigrations": 1460,
+  "failedMigrations": 596,
+  "successRate": 59.18,
   "failuresByRecipe": [
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
@@ -14,7 +14,7 @@
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-      "failures": 20
+      "failures": 21
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
@@ -25,11 +25,11 @@
       "failures": 4
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
       "failures": 3
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "failures": 3
     },
     {
@@ -37,7 +37,7 @@
       "failures": 2
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
       "failures": 1
     },
     {
@@ -45,11 +45,11 @@
       "failures": 1
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
       "failures": 1
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "failures": 1
     }
   ],
@@ -186,6 +186,7 @@
     "jobrevision",
     "jobtemplates",
     "jsunit",
+    "junit-attachments",
     "jwt-auth-filter",
     "kanboard",
     "keep-slave-disconnected",
@@ -368,6 +369,12 @@
       "success": 119,
       "fail": 5,
       "total": 124
+    },
+    {
+      "month": "2026-10",
+      "success": 0,
+      "fail": 1,
+      "total": 1
     }
   ],
   "tags": [
@@ -389,7 +396,7 @@
     },
     {
       "tag": "developer",
-      "count": 192
+      "count": 193
     },
     {
       "tag": "testing",
